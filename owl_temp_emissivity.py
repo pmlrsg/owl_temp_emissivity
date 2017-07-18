@@ -50,7 +50,7 @@ def planck_T(wavelengths, radiance):
     Returns the temperature for each band in degrees C
     """
 
-    c = 3.0e+8 # speed of light
+    c = 299792458 # speed of light
     h = 6.626e-34 # Planck's constant
     k = 1.38e-23 # Boltzmann constant
 
