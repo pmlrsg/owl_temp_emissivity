@@ -7,6 +7,16 @@ which is not true for metals, so the temperature will be underestimated. A corre
 higher error will be given for these low emissivity materials. This script is a research
 tool and as such no guarentee is given for the accuracy of the output data.
 
+The simple method is based on inverting Planck's Law for black body radiation to find the
+temperature given the radiance. The theory is well covered in physics textbooks and many
+articles may be found online for further reading. The error used is 2.5 times the
+standard deviation of the different temperatures calculated from the different bands.
+Materials that are closer to black bodies will have a more accurate temperature and there
+will be less range in the temperatures calculated from the radiance, whereas materials
+that do not emit as a black body and thus have the most error have a larger range of
+temperatures calculated from the different bands. Thus this gives a realistic indication
+of the temperature error.
+
 Authors: Laura Harris (NERC-ARF-DAN), Hannu Holma (Specim)
 
 ## Installation ##
