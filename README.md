@@ -57,4 +57,4 @@ python owl_temp_emissivity.py -f o249011b.bil -o owl_outputs/
 
 NERC-ARF processed Owl data can be downloaded from [CEDA](http://www.ceda.ac.uk/):
 
-* [EUFAR15/48 - Hidhaz project, Iceland](http://data.ceda.ac.uk/neodc/arsf/2015/EUFAR15_48/EUFAR15_48-2015_249_Hidhaz/EUFAR15_48-249-owl-20160721/)
+* [EUFAR15/48 - Hidhaz project, Iceland](http://data.ceda.ac.uk/neodc/arsf/2015/EUFAR15_48/EUFAR15_48-2015_249_Hidhaz/hyperspectral-owl/)
